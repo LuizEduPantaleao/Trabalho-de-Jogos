@@ -4,6 +4,12 @@ from shape import Polygon
 from collision import Collide
 
 
+# Trabalho de Luiz Eduardo Pantaleão do jogo conhecido como Breakout, onde uma
+# raquete tem que quebrar os blocos com intuito de fazer pontos.
+# Alguns dão habilidades especiais na bola
+# Se cair 3 vezes no chão, perde
+# Controla apenas com os botões das setas horizontais e A e D
+
 pygame.init()
 
 WIDTH = 800
